@@ -1,0 +1,16 @@
+<view>1.显示完后再显示</view>
+<view class='maquee_box'>
+  <view class='maquee_text' style='{{orientation}}:{{marqueeDistance}}px;font-size:{{size}}px;'>
+  {{text}}
+  </view>
+</view>
+
+<view>2.显示白边后再显示</view>
+<view class='example'>
+  <view class='maquee_box'>
+    <view class='maquee_text' style='{{orientation}}:{{marqueeDistance2}}px;font-size:{{size}}px;'>
+    <text>{{text}}</text>
+     <text wx:if="{{marquee2copy_status}}" style="margin-left:{{marquee2_margin}}px;">{{text}}</text>
+    </view>
+  </view>
+</view>

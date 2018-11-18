@@ -1,0 +1,15 @@
+.example{
+  display: block;
+  height: 100rpx;
+  width: 100%;
+}
+.maquee_box{
+  position: relative;
+ width: 100%;
+ height: 100px;
+}
+.maquee_text{
+  position: absolute;
+  top:0;
+  white-space: nowrap;
+}
